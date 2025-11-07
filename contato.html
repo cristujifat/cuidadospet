@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dicas e informações sobre cuidados com cachorros de estimação, raças, treinamento e saúde pet. ">
+    <meta name="keywords" content="cuidados pets, cachorro, animais de estimação, raças, treinamento, saúde animal">
+    <meta name="robots" content = "index, follow">
+    <meta property="og:title" content="Cuidados Pets">
+    <meta property="og:description" content="Dicas e informações sobre cuidados com cachorros de estimação, raças, treinamento e saúde pet.">
+    <meta property="og:type" content="website">
+    <title>Cuidados Pets</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+<header class="site-header">
+  <h1><a href="index.html">Cuidados Pets</a></h1>
+  <p>Bem-vindo ao nosso blog sobre cachorros de estimação! Aqui, você encontrará informações e dicas úteis sobre como cuidar do seu melhor amigo canino.</p>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#cuidados-basicos">Cuidados Básicos</a></li>
+      <li><a href="#racas">Raças de Cachorro</a></li>
+      <li><a href="#treinamento">Dicas de Treinamento</a></li>
+    </ul>
+  </nav>
+</header>
+    <main>
+        <section id="fale-conosco">
+            <form action="/enviar-mensagem" method="post">
+              <fielset>
+                <legend>Seus Dados</legend>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome_usuario" placeholder="Seu nome" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email_usuario" placeholder="seu.email@exemplo.com" required><br><br>
+                <fieldset>
+                  <legend>Seu gênero:</legend>
+                  <input type="radio" id="masculino" name="genero" value="Masculino">
+                  <label for="masculino">Masculino</label><br>
+                  <input type="radio" id="feminino" name="genero" value="Feminino">
+                  <label for="feminino">Feminino
+                </fieldset>
+                <label for="data-nasc">Data de Nascimento: </label>
+                <input type="date" id="data-nasc" name="data_nasc" required><br><br>  
+              </fielset>
+              <fieldset>
+                <legend>Sua mensagem</legend>
+                <label for="assunto">Assunto:</label>
+                <select type="text" id="assunto" name="assunto_contato" required>
+                  <option value="duvida">Dúvida</option>
+                  <option value="sugestao">Sugestão</option>
+                  <option value="outros">Outros</option>
+                </select><br><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="conteudo_mensagem" rows="5" cols="30" required placeholder="Digite aqui sua mensagem..."></textarea>
+              </fieldset>
+              <br>
+              <input type="submit" value="Enviar mensagem">
+              <input type="reset" value="Limpar">
+          
+            </form>
+            </section>
+            <div class="conteiner-pai">Conteiner Pai<br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel sapien sed ipsum tempor cursus. Vivamus non pretium libero, nec imperdiet nulla. Donec sit amet nisl tincidunt, tincidunt justo nec, malesuada felis. Proin eget libero magna. Nam euismod, velit nec laoreet pharetra, libero ex tincidunt arcu, in tempor erat nulla ac justo.
+                Suspendisse potenti. Cras in nunc neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut gravida, ex a elementum fermentum, nibh mi facilisis arcu, vitae dignissim odio nibh sit amet turpis. Integer vitae tristique orci, vitae lacinia augue. Pellentesque ac odio eu nulla aliquet fermentum.
+                Curabitur porta, felis vitae malesuada rhoncus, nisl neque eleifend erat, nec sodales risus augue eget velit. Morbi euismod luctus diam, ut vulputate libero fermentum ac. Phasellus nec erat ut leo viverra iaculis. Ut ac ligula in felis pharetra dictum. Duis tincidunt, nulla non efficitur vulputate, arcu urna blandit nunc, non commodo dolor justo vel lacus.
+                Praesent id sapien in purus ullamcorper malesuada. Nam at urna et lectus malesuada imperdiet. Etiam ac justo sit amet justo efficitur tincidunt. Vestibulum condimentum, nulla at facilisis posuere, libero urna porttitor neque, ut convallis mi lorem vitae orci. Donec eget tristique lorem. Sed nec nibh id turpis euismod hendrerit vel in mi.
+              <div class="caixa-absoluta"></div>
+            </div>
+
+            <div class="container-botoes">
+              <a href="#" class="item-inline">Botao 1</a>
+              <a href="#" class="item-inline">Botao 2</a>
+              <a href="#" class="item-inline">Botao 3</a>
+            </div>
+            
+          <div class="caixa-fixa"></div>
+          <div class="caixa camada-1">Camada 1 (z-index: 1)</div>
+          <div class="caixa camada-2">Camada 2 (z-index: 2)</div>
+          <div class="caixa camada-3">Camada 3 (z-index: 3)</div>
+    </main>
+<footer class="site-footer">
+    <p>&copy; 2025 Cuidados Pets. Todos os direitos reservados.</p>
+  
+  </footer>
+  <script src="js/main.js"> </script>
+  </body>
+  </html>
